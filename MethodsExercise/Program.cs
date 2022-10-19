@@ -2,8 +2,24 @@
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static int Sum(int num1, int num2)
         {
+            var answer = num1 + num2;
+            return answer;
+        }
+
+    }
+
+    public static int Multiply(int num1, int num2, int num3)
+    {
+        return num1 * num2 * num3;
+    }
+
+    static void Main(string[] args)
+    {
+
+        var amountOfCars = Sum(2, 6);
+        var wassup = Multiply(60, 2, 4);
 
             //Name: Kai
             //Favorite Color: Blue
@@ -31,6 +47,12 @@
             Console.WriteLine($"Color: {color}");
             Console.WriteLine($"Animal: {animal}");
             Console.WriteLine($"Artist: {artist}");
+
+
+            //---------Exercise 2------------------
+
+
+           
 
         }
     }
